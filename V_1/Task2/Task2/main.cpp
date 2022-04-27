@@ -30,6 +30,7 @@ int main(int argc, const char * argv[]) {
     while (number != 0) {
         int sumOfDigits = getSumOfDigits(number);
         if (isOdd(sumOfDigits)) counter++;
+        cin >> number;
     }
     cout << counter;
 }
