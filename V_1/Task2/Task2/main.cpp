@@ -19,7 +19,7 @@ int getSumOfDigits(int number) {
 }
 
 bool isOdd(int number) {
-    return number % 2 == 0;
+    return number % 2 != 0;
 }
 
 int main(int argc, const char * argv[]) {
